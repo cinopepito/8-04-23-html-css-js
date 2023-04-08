@@ -1,0 +1,39 @@
+.container {
+  width: 500px;
+  height: 600px;
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 150px 150px 150px;
+}
+.item1{
+    background-color: blue;
+    grid-column: 1/4;
+}
+.item2{
+    background-color: green;
+}
+.item3{
+    background-color: rgb(9, 183, 186);
+}
+.item4{
+    background-color: rgb(7, 222, 179);
+}
+.item5{
+    background-color: rgb(222, 190, 7);
+}
+.item6{
+    background-color: rgb(97, 222, 7);
+}
+.item7{
+    background-color: rgb(222, 82, 7);
+}
+.item8{
+    background-color: rgb(48, 47, 36);
+}
+.item9{
+    background-color: rgb(195, 33, 21);
+}
+.item10{
+    background-color: rgb(145, 91, 88);
+}
